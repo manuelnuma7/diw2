@@ -1,6 +1,102 @@
-body{
-    background-color: #3bf7b8;
+/*ejercicio 1*/
+*{
+    
+    font-family: tahoma, verdana , sans-serif;
 }
-h{
-    color: rebeccapurple;
+.act1,body{
+    background-color: #adff2f;
 }
+h1{
+    color: #ffffff;
+}
+/*ejercicio 2*/
+.act2{
+    background-color: #c0c004;
+}
+header{
+    text-align: center;
+}
+p{
+    font-size: 0.7cm;
+    color: #ff0000;
+}
+/*ejercicio 3*/
+ul{
+    padding: 0%;
+}
+li{
+    list-style: none;
+    text-align: center;
+    font-size: 0.5cm;
+    color: #c0c004;
+}
+li:nth-child(even){
+    background-color: yellow;
+}
+li:nth-child(odd){
+    background-color: blueviolet;
+}
+ /*ejercicio4 */
+div p{
+    color: #000000;
+    font-size: normal;
+    padding: 0%;
+    margin: 0%;
+
+}
+main div:nth-child(2) p{
+    font-size: 1.5em;
+}
+main div:nth-child(3) p{
+    font-size: normal;
+    color: #ff0000;
+    
+}
+main div:nth-child(4) p{
+    font-size: 2em;
+    color: #0000ff;
+}
+
+div p:nth-child(1){
+    font-weight: bold;
+}
+div p:nth-child(2){
+    font-style:italic ;
+}
+div p:nth-child(3){
+    text-decoration: underline ;
+    padding-bottom: 1cm;
+}
+main div:nth-child(4) p:nth-child(1) {
+    font-weight: bold;
+    font-style:italic ;
+}
+main div:nth-child(4) p:nth-child(2) {
+    font-weight: bold;
+    text-decoration: underline ;
+}
+main div:nth-child(4) p:nth-child(3) {
+    font-style:italic ;
+    text-decoration: underline ;
+    padding-bottom: 0%;
+}
+main div:nth-child(4) p:nth-child(4) {
+    font-style:italic ;
+    text-decoration: underline ;
+    font-weight: bold;
+
+}
+/*ejercicio 5*/
+
+a {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+/*ejercicio 6*/
+.noestilo  a{
+    text-decoration: none;
+}
+
+
